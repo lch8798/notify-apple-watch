@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.AppWrap {
+  margin: auto;
+  padding: 50px 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Title */
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  color: #888;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 30px;
+  color: #888;
+  font-size: 12px;
+}
+
+/* Email Input */
+.emailInput {
+  margin: 50px 0;
+}
+
+span {
+  display: block;
+  margin: 15px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+input {
+  height: 30px;
+  text-align: center;
+}
+
+/* Size Button */
+button {
+  padding: 5px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50px;
+  border-width: 0;
+  color: #fff;
+  background-color: #147ce5;
+}
