@@ -7,7 +7,7 @@ const mailer = require('nodemailer');
 const fs = require('fs');
 
 // server config
-const port = 5000;
+const port = 3000;
 
 // service data
 const model = {
