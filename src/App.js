@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const api = axios.create({ withCredentials: true });
 
-const url = 'http://localhost:3000/api';
+const url = 'http://124.111.56.169:3000/api';
 
 class App extends Component {
   constructor(props) {
