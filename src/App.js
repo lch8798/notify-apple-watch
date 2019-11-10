@@ -45,6 +45,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="watchImage">
+      
+        </div>
         <div className="AppWrap">
           <h2>Apple Watch 5 Hermès Black Edition</h2>
           <p>

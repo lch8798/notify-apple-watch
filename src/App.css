@@ -3,13 +3,38 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  background: radial-gradient(circle at 50% 45%, #292929 0%, #0a0a0a 100%);
+  
+  /* IOS 웹브라우저 전용 임시 */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.watchImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/watch.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .AppWrap {
   margin: auto;
-  padding: 50px 30px;
+  padding: 40px 15px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  background-color: #fff;
+  opacity: 0;
+  animation: init 1s linear .5s forwards;
+}
+@keyframes init {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* Title */
