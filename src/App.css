@@ -30,7 +30,7 @@
   border-radius: 6px;
   background-color: #fff;
   opacity: 0;
-  animation: init 1s linear .5s forwards;
+  animation: init 1s linear 1.5s forwards;
 }
 @keyframes init {
   from { opacity: 0; }
